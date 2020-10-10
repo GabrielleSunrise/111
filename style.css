@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('img/product-sans-cufonfonts-webfont/style.css');
+
+body {
+margin-top: 0px;
+font-family: 'Roboto', sans-serif;
+width: 1440px;
+margin-left: auto;
+margin-right: auto;
+}
+
+header, content {
+width: 1440px;
+}
+
+header {
+height: 100px;
+position: fixed;
+top: 0px;
+background: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 15;
+}
+
+#header-left {
+text-align: left;
+display: flex;
+align-items: center;
+}
+
+#header-right {
+text-align: right;
+display: flex;
+align-items: center;
+}
+
+#header-right span {
+margin-left: 3px;
+margin-right: 27px;
+}
+
+button {
+background: linear-gradient(90deg, #3AE4DF 0%, #7A88FF 104.29%);
+border: none;
+border-radius: 5px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+color: #FFFFFF;	
+}
+
+#header-right button {
+margin-right: 40px;
+height: 40px;
+width: 140px;
+font-size: 14px;
+line-height: 16px;
+}
+
+#logo {
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+letter-spacing: -0.03em;
+margin-left: 40px;
+background: linear-gradient(90deg, #3AE4DF 0%, #7A88FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+nav {
+	margin-left: 52px;
+}
+
+nav ul {
+list-style-type: none;
+display: flex;
+width: 641px;
+justify-content: space-between;
+}
+
+nav li {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+float: left;
+}
+
+content {
+position: absolute;
+margin-top: 100px;
+z-index: 10;
+}
+
+#firstscreen {
+height: 700px;
+width: 100%;	
+background: linear-gradient(to right, #FFFCEB 0%, #EAFFFE 100%);
+position: relative;
+}
+
+#somesheet {
+z-index: 10;
+}
+
+#svg1 {
+background: url(img/slider/image.svg);
+position: absolute;
+width: 715.78px;
+height: 573.87px;
+left: 612px;
+top: 49px;
+z-index: 8;
+}
+
+#svg2 {
+background: url(img/slider/Group.svg);
+height: 158px;
+width: 130px;
+left: 569px;
+top: 45px;
+border-radius: 0px;
+position: absolute;
+z-index: 7;
+}
+
+#svg3 {
+background: url(img/slider/Group-1.svg);
+height: 158px;
+width: 130px;
+left: 1241px;
+top: 495px;
+border-radius: 0px;
+position: absolute;
+z-index: 9;
+}
+
+#svg4 {
+background: url(img/slider/Group-3.svg);
+height: 52.1px;
+width: 52.3px;
+left: 569px;
+top: 501px;
+position: absolute;
+z-index: 9;
+}
+
+#svg5 {
+background: url(img/slider/Group-2.svg);
+height: 52.1px;
+width: 52.3px;
+left: 584px;
+top: 484px;
+position: absolute;
+z-index: 9;
+}
+
+#svg6 {
+background: url(img/slider/Vector-1.svg);
+height: 13px;
+width: 13px;
+left: 599px;
+top: 432px;
+position: absolute;
+z-index: 9;
+}
+
+#svg7 {
+background: url(img/slider/Vector.svg);
+height: 24.5px;
+width: 24.5px;
+left: 1329px;
+top: 407px;
+position: absolute;
+z-index: 9;
+}
+
+#slider-text {
+width: 399px;
+height: 357px;
+margin-left: 165px;
+margin-top: 172px;
+z-index: 11;
+position: absolute;
+}
+
+h1 {
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 56px;
+line-height: 68px;
+margin-bottom: 25px;
+margin-top: 0px;
+}
+
+p {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+}
+
+#slider-text button {
+margin-top: 60px;
+height: 60px;
+width: 200px;
+font-size: 18px;
+line-height: 21px;
+}
+
+#message {
+display: flex;
+align-items: center;
+}
+
+#photo {
+width: 442px;
+height: 436px;
+margin-top: 110px;
+margin-left: 165px;
+position: relative;
+}
+
+#photo img {
+position: absolute;
+left: 0px;
+bottom: 0px;
+z-index: 10;
+background-color: white;
+}
+
+#shadow {
+height: 355px;
+width: 361px;
+border-radius: 4px;	
+background: linear-gradient(92.18deg, rgba(132, 238, 235, 0.35) 1.83%, rgba(204, 209, 255, 0.35) 98.3%);
+z-index: 8;
+position: absolute;
+right: 0px;
+top: 0px;
+}
+
+#decor {
+background: url(img/photo-decor.svg);
+height: 90px;
+width: 74px;
+right: 44px;
+top: 45px;
+position: absolute;
+z-index: 9;
+}
+
+#message-text {
+width: 470px;
+height: 436px;
+margin-left: 136px;
+margin-top: 110px;
+}
+
+h2 {
+font-family: Roboto;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+padding-top: 20px;
+}
+
+.micro {
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0em;
+}
+
+a {
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+text-decoration: underline;
+background: linear-gradient(90deg, #3AE4DF 0%, #7A88FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-top: 26px;
+}
+
+#upcoming {
+margin-top: 90px;
+margin-bottom: 100px;
+text-align: center;
+}
+
+#upcoming h2 {
+margin-bottom: 65px;
+}
+
+#courses {
+width: 1110px;
+height: 483px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+}
+
+.card {
+width: 261px;
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+
+.logosquare {
+display: flex;
+justify-content: center;
+align-items: center;	
+text-align: center;
+width: 261px;
+height: 240px;
+border-radius: 4px;
+}
+
+.details {
+width: 120px;
+height: 40px;
+font-size: 14px;
+letter-spacing: 0em;
+margin-top: 24px;
+}
+
+.bold {
+font-weight: 700;
+}
+
+.oracle {
+background-color: #FFF5F6;
+}
+
+.py {
+background-color: #FFFCEB;
+}
+
+.android {
+background-color: #EBFFF4;
+}
+
+.cisco {
+background-color: #FFF5F6;
+
+}
