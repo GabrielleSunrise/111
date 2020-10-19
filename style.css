@@ -4,6 +4,8 @@
 body {
 margin-top: 0px;
 font-family: 'Roboto', sans-serif;
+margin-left: auto;
+margin-right: auto;
 }
 
 header, main {
