@@ -6,14 +6,6 @@ margin-top: 0px;
 font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (min-width: 1450px) {
-header, main,  {
-width: 1440px;
-margin-left: auto;
-margin-right: auto;
-}
-}
-
 header, main {
 width: 100%;
 }
@@ -589,5 +581,13 @@ line-height: 44px;
 h2 {
 font-size: 24px;
 line-height: 28px;
+}
+}
+
+@media screen and (min-width: 1450px) {
+header, main,  {
+width: 1440px;
+margin-left: auto;
+margin-right: auto;
 }
 }
